@@ -1,0 +1,85 @@
+body{
+	font-family:Lato,Helvetica,Arial,sans-serif;
+	font-size: 1.2em;
+	color:#993a00;
+	background-color: #fffdfc;
+	margin: 0px;
+}
+/* THE FOLLOWING IS ONLY FOR THE HORIZONTAL NAVIGATION BAR*/
+.horiz-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom:1px solid gray;
+}
+
+.horiz-nav li {
+    float: left;
+}
+
+.horiz-nav li a {
+    display: block;
+    color: #212121;
+    text-align: center;
+    padding: 17px 25px;
+    text-decoration: none;
+    border-left:0.5px solid white;
+    border-right:0.5px solid white;
+}
+
+.horiz-nav li #logo{
+	height: 50px;
+	width: auto;
+}
+
+a:active{
+	background-color:#212121;
+	color:#ffffff;
+}
+/*BEAN PARALLAX*/
+div#beans-parallax
+{
+	background-image: url("beans.jpg");
+	height: 600px;
+	background-attachment:fixed;
+	background-repeat: repeat-x;
+}
+#beans-parallax h1{
+	line-height:300px;
+	text-align:center;
+	color:white;
+}
+
+#beans-parallax h2{
+	text-align:center;
+	color:white;
+}
+
+.info-container {
+  	height:1080px;
+}
+
+#infobox {
+	display:inline-block;
+	overflow: hidden;
+	float:left;
+	max-width: 35%;
+	min-width: 25%;
+	height: auto;
+	margin: 5%;
+	border: 2px solid;
+	border-radius: 15px;
+	padding:10px 20px;
+	text-align:center;
+  	vertical-align: middle;
+ 	background-color:#ffffff;
+}
+
+.get-the-app{
+	back
+}
