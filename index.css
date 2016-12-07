@@ -1,6 +1,6 @@
 body{
-	font-family:Lato,Helvetica,Arial,sans-serif;
-	font-size: 1.2em;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1.45em;
 	color:#993a00;
 	background-color: #fffdfc;
 	margin: 0px;
@@ -22,6 +22,9 @@ body{
     float: left;
 }
 
+.horiz-nav #my-items{
+	float: right;
+}
 .horiz-nav li a {
     display: block;
     color: #212121;
@@ -33,14 +36,20 @@ body{
 }
 
 .horiz-nav li #logo{
-	height: 50px;
+	height: 55px;
 	width: auto;
 }
 
-a:active{
+.horiz-nav a:hover{
+	background-color:#424242;
+	color:#ffffff;
+}
+
+.horiz-nav a:active{
 	background-color:#212121;
 	color:#ffffff;
 }
+
 /*BEAN PARALLAX*/
 div#beans-parallax
 {
@@ -72,8 +81,8 @@ div#beans-parallax
 	overflow: auto;
 	float:left;
 	width: 40%;
-	height: auto;
-	margin: 5%;
+	height: 396px;
+	margin: 30px 5%;
 	border: 2px solid;
 	border-radius: 15px;
 	padding:10px 20px;
@@ -85,6 +94,7 @@ div#beans-parallax
 .get-the-app{
 	color:black;
 	height: 350px;
+	margin-left:1%;
 }
 .get-the-app #left-info{
 	float:left;
@@ -104,7 +114,7 @@ div#beans-parallax
 	overflow:hidden;
 	margin-left: 5%;
 	background-image:url(beans-side.png);
-	background-position: 0% 0%;
+	background-position:center top;
 	background-attachment: fixed;
 	background-repeat:repeat-x;
 }
