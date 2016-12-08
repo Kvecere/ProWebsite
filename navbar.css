@@ -1,0 +1,44 @@
+.horiz-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom:1px solid gray;
+}
+
+.horiz-nav li#my-items{
+	float: right;
+}
+
+.horiz-nav li {
+    float: left;
+}
+
+.horiz-nav li a {
+    display: block;
+    color: #212121;
+    text-align: center;
+    padding: 17px 25px;
+    text-decoration: none;
+    border-left:0.5px solid white;
+    border-right:0.5px solid white;
+}
+
+.horiz-nav li #logo{
+	height: 55px;
+	width: auto;
+}
+
+.horiz-nav a:hover{
+	background-color:#424242;
+	color:#ffffff;
+}
+
+.horiz-nav a:active{
+	background-color:#212121;
+	color:#ffffff;
+}
