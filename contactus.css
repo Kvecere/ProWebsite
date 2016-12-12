@@ -15,7 +15,7 @@ body{
 #infobox {
 	display:inline-block;
 	overflow: auto;
-	height: 260px;
+	height: 256px;
 	margin: 20px;
 	border: 2px solid;
 	border-radius: 15px;
@@ -27,17 +27,18 @@ body{
 
 .left-side{
 	float:left;
-	width:75%;
-	border-right:0.5px solid gray;
+	width:60%;
 	padding:20px;
+	margin-right: 12.5%;
 }
 #entry{
 	color:black;
-	border-top:0.5px solid gray;
 	padding: 20px;
 }
 .right-side{
+	height:389px;
 	float:right;
-	width:25%;
+	width:27.5%;
 	padding:20px;
+	border-left:0.5px solid gray;
 }

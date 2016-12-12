@@ -10,7 +10,7 @@ body{
 /*BEAN PARALLAX*/
 div#beans-parallax
 {
-	background-image: url("beans.jpg");
+	background-image: url("images/beans.jpg");
 	height: 600px;
 	background-attachment:fixed;
 	background-repeat: repeat-x;
@@ -70,7 +70,7 @@ div#beans-parallax
 	float:right;
 	overflow:hidden;
 	margin-left: 5%;
-	background-image:url(beans-side.png);
+	background-image:url(images/beans-side.png);
 	background-position:center top;
 	background-attachment: fixed;
 	background-repeat:repeat-x;
