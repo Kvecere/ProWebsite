@@ -36,9 +36,46 @@
 .horiz-nav a:hover{
 	background-color:#424242;
 	color:#ffffff;
+	transition:background-color 0.25s;
 }
 
 .horiz-nav a:active{
 	background-color:#212121;
 	color:#ffffff;
+}
+
+.horiz-nav .dropdown{
+	display:none;
+}
+@media (max-width:768px){
+	.horiz-nav li a{
+		padding:12px 15px;
+	}
+	.horiz-nav li #logo{
+		height: 42px;
+		width: auto;
+	}
+	.horiz-nav li>a{/*everything but the dropdown and the logo*/
+		display:none;
+	}
+	.horiz-nav li div.dropdown{
+		display:inline-block;
+		position:relative;
+	}
+	.dropdown-contents{
+		display: none;
+    	position: absolute;
+    	background-color: #f9f9f9;
+    	min-width: 160px;
+	}
+	.dropdown-contents a {
+	    color: black;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: block;
+	    text-align: left;
+	}
+	.dropdown:hover .dropdown-contents{
+		display:block;
+	}
 }

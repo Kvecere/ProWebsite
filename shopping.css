@@ -1,6 +1,6 @@
 body{
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	color:#993a00;
 	background-color: #fffdfc;
 	margin-top: 56px;
@@ -9,6 +9,7 @@ body{
 	width:80%;
 	margin:auto;
 	text-align: center;
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
 }
 .item{
 	width:252px;
@@ -34,8 +35,24 @@ body{
 	background-color:#993a00;
 	color:white;
 }
-#text-info button, select{
+#text-info select,button{
 	border: 1px solid black;
 	border-radius:3px;
 	background-color:#993a00;
+}
+button:hover{
+	color:#993a00;
+	background-color: #fffdfc;
+	transition: background-color 1s;
+	transition: color 0.2s;
+}
+@media (max-width: 768px){
+	body{
+		font-size: 1.3em;
+		margin-top:43px;
+	}
+	.inventory-menu{
+		width:100%;
+		box-shadow: none;
+	}
 }

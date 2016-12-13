@@ -1,12 +1,10 @@
 body{
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-size: 1.45em;
+	font-size: 1.4em;
 	color:#993a00;
 	background-color: #fffdfc;
-	margin: 0px;
+	margin-top: 56px;
 }
-
-
 /*BEAN PARALLAX*/
 div#beans-parallax
 {
@@ -64,6 +62,9 @@ div#beans-parallax
 	width:inherit;
 	height:125px;
 }
+.get-the-app #app-links img{
+	padding:0px 20px;
+}
 .get-the-app #side-beans{
 	height:350px;
 	width:33%;
@@ -74,4 +75,42 @@ div#beans-parallax
 	background-position:center top;
 	background-attachment: fixed;
 	background-repeat:repeat-x;
+}
+
+@media (max-width:768px){
+	body{
+		font-size: 1.3em;
+		margin-top:43px;
+	}
+	#beans-parallax h1{
+		font-size:3.8em;
+	}
+	#beans-parallax h2{
+		display:none;
+	}
+	.info-container {
+	  	height: 896px;
+	}
+	#infobox {/*total height is 446*/
+		float:none;
+		display:block;
+		overflow: visible;
+		width: 90%;
+		margin: 20px 5%;
+		border: 2px solid;
+		border-radius: 15px;
+		padding:10px 20px;
+	}
+	.get-the-app #left-info{
+		width:100%
+	}
+	.get-the-app #side-beans{
+		display: none;
+	}
+}
+
+@media(max-width:514px){/*for the app store links*/
+	.get-the-app #app-links img{
+		padding:5px;
+	}
 }
