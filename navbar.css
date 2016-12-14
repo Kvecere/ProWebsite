@@ -47,7 +47,7 @@
 .horiz-nav .dropdown{
 	display:none;
 }
-@media (max-width:768px){
+@media (max-width:3432px){
 	.horiz-nav li a{
 		padding:12px 15px;
 	}
@@ -60,13 +60,11 @@
 	}
 	.horiz-nav li div.dropdown{
 		display:inline-block;
-		position:relative;
 	}
 	.dropdown-contents{
 		display: none;
-    	position: absolute;
     	background-color: #f9f9f9;
-    	min-width: 160px;
+    	border:1px solid gray;
 	}
 	.dropdown-contents a {
 	    color: black;
@@ -76,6 +74,8 @@
 	    text-align: left;
 	}
 	.dropdown:hover .dropdown-contents{
+	    position:fixed;
+	    right:0px;
 		display:block;
 	}
 }
